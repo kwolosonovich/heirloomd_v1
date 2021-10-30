@@ -6,7 +6,7 @@ Web application to search for recipes. Users can search by cuisine, meal type, d
 
 ```bash
 # Install dependencies
-$ npm install
+$ yarn install
 
 # Serve with hot reload in development mode
 $ yarn start
