@@ -6,17 +6,17 @@ import { store } from './app/store'
 import App from './App'
 
 test('renders learn react link', () => {
-    const { getByText } = render(
-        <Provider store={store}>
-            <App />
-        </Provider>
-    )
+  const { getByText } = render(
+    <Provider store={store}>
+      <App />
+    </Provider>
+  )
 
-    expect(getByText(/learn/i)).toBeInTheDocument()
+  expect(getByText(/learn/i)).toBeInTheDocument()
 })
 
 it('renders without crashing', () => {
-    const div = document.createElement('div')
-    ReactDOM.render(<App />, div)
-    ReactDOM.unmountComponentAtNode(div)
+  const div = document.createElement('div')
+  ReactDOM.render(<App />, div)
+  ReactDOM.unmountComponentAtNode(div)
 })

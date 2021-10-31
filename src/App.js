@@ -2,13 +2,13 @@ import React from 'react'
 import './App.css'
 
 function App() {
-    return (
-        <div className="App">
-            <header className="App-header">
-                <span>Heirloomd</span>
-            </header>
-        </div>
-    )
+  return (
+    <div className="App">
+      <header className="App-header">
+        <span>Heirloomd</span>
+      </header>
+    </div>
+  )
 }
 
 export default App

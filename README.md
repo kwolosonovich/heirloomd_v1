@@ -22,9 +22,9 @@ $ yarn build
 
 ## Environment Variables
 
--   Spoonacular API key
--   Spoonacular root URL
--   Spoonacularimage URL
+- Spoonacular API key
+- Spoonacular root URL
+- Spoonacularimage URL
 
 ## Contributing
 
@@ -32,7 +32,7 @@ Please feel free to submit a pull request to report a bug, add a feature or make
 
 ## Future
 
--   Allow users to add images of recipes via google photos integration
--   Optical Character Recognition to detect and extract handwriting and printed text in recipe images.
--   Options to design and customize recipe cards
--   Customized galleries to collect, organize and share recipes
+- Allow users to add images of recipes via google photos integration
+- Optical Character Recognition to detect and extract handwriting and printed text in recipe images.
+- Options to design and customize recipe cards
+- Customized galleries to collect, organize and share recipes
